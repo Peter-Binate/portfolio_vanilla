@@ -100,7 +100,7 @@ input:-webkit-autofill {
 
 .content .input-box small {
     position: absolute;
-    left: 57px;
+    left: 87px;
     top: 130%;
     transform: translate(-50%, -50%);
     visibility: hidden;
@@ -116,7 +116,7 @@ input:-webkit-autofill {
 
 #form>div.message-box.active-input.error>small {
     position: absolute;
-    left: 27.5%;
+    left: 33%;
     top: 115%;
     transform: translate(-50%, -50%);
 }
