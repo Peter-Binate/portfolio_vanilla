@@ -41,9 +41,8 @@
 }
 
 .homepage-title #homepage-subtitle {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: calc(25 * var(--res));
-    /*font-size: 1.5em;*/
 }
 
 .smoke ul li,
