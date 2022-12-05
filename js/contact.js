@@ -40,16 +40,16 @@ window.addEventListener('load', () => {
 
 			if (idName == "username" || idName == "") {
 				if (usernameValue === '') {
-					setErrorFor(username, 'Entrer votre nom');
+					setErrorFor(username, 'Ihren Namen eingeben');
 				} else {
 					setSuccessFor(username);
 				}
 			}
 			else if (idName == "email" || idName == "") {
 				if (emailValue === '') {
-					setErrorFor(email, 'Enter votre Email');
+					setErrorFor(email, 'Ihre Email eingeben');
 				} else if (!isEmail(emailValue)) {
-					setErrorFor(email, 'Email incorrecte');
+					setErrorFor(email, 'Eine richtig Email eingeben');
 				} else {
 					setSuccessFor(email);
 				}
@@ -60,7 +60,7 @@ window.addEventListener('load', () => {
 			const messageValue = message.value.trim();
 
 			if (messageValue === '' ) {
-				setErrorForTextArea(message, 'Vous n\'avez écrit aucun message');
+				setErrorForTextArea(message, 'Sie haben keine Nachricht geschrieben');
 			} else {
 				setSuccessForTextArea(message);
 			}
