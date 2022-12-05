@@ -88,3 +88,36 @@
         margin-bottom: 10px;
     }
 }
+
+/*@media screen and (min-width: 2700px) and (max-width: 5000px) {
+    .about-content {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid rgb(0, 34, 128);
+    }
+
+    .about .about-content #profil-image {
+        height: 1500px;
+        width: 1000px;
+        object-fit: cover;
+        border: 1px solid green;
+    }
+
+    .about-content-text {
+        width: max-content;
+        border: 1px solid red;
+    }
+
+    .about-content-text .about-title {
+        font-size: 5em;
+    }
+
+    .about-content-text h5 {
+        font-size: 5.2em;
+    }
+
+    .about-content-text p {
+        font-size: 3em;
+    }
+}*/
