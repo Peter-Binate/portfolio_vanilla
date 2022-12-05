@@ -2,7 +2,6 @@
 
 /*.nav .container*/
 .navbarItems {
-    max-width: 768px;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
@@ -18,7 +17,6 @@
 
 /*.nav*/
 .navbarItems {
-    max-width: 1500px;
     height: 3rem;
     display: flex;
     justify-content: space-between;
@@ -189,5 +187,20 @@
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
         transform: translateY(0px);
+    }
+}
+
+/*-------------------FORMAT BIG SCREEN-------------------*/
+@media screen and (min-width: 2700px) and (max-width: 5000px) {
+
+    .navbarItems,
+    .nav-container {
+        height: 7rem;
+    }
+
+    .navbar_logo,
+    .nav_link {
+        font-size: 2rem;
+        font-weight: 800;
     }
 }

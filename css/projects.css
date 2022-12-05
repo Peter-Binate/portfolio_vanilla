@@ -51,7 +51,6 @@
     background: rgba(85, 83, 83, 0.3);
     opacity: 0;
     transition: opacity 0.25s;
-    /*border: 3px solid red;*/
 }
 
 .swiper-slide .content>* {
@@ -125,32 +124,25 @@ hr {
 }
 
 .techno {
-    width: auto;
+    width: fit-content;
     height: fit-content;
-    max-width: 200px;
-    /*padding: 10px;*/
-    /*margin-left: 15px;*/
     text-align: center;
-    font-size: calc(20 * var(--res));
-    /*border: 1px solid red;*/
 }
 
 .techno p {
     margin: 5px auto 5px;
     width: 100%;
-    /*border: 1px solid rgb(22, 22, 28);*/
+    font-size: 1em;
 }
 
 .techno-img img {
     width: 3vw;
     height: auto;
-    /*border: 1px solid blue;*/
 }
 
 .show-website {
     padding: 0 1.6vw 0 1.6vw;
     height: fit-content;
-    /*border: 1px solid greenyellow;*/
 }
 
 .show-website a span {
@@ -159,7 +151,6 @@ hr {
     font-size: calc(20 * var(--res));
     vertical-align: baseline;
     transition: background 0.5s ease;
-    /*border: 1px solid rgb(98, 12, 107);*/
 }
 
 .show-website a span::before {
@@ -184,7 +175,6 @@ hr {
 .show-website i {
     color: #fff;
     margin-left: 20px;
-    /*border: 1px solid blue;*/
     animation: slide1 1s ease-in-out infinite;
     margin-left: 5px;
 }
@@ -248,7 +238,7 @@ hr {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #fff);
 }
 
-/*Format Mobile*/
+/*-------------------FORMAT MOBILE-------------------*/
 @media screen and (max-width: 420px) {
     .swiper-slide {
         width: 420px;
@@ -256,13 +246,46 @@ hr {
 
     .techno {
         padding: 0;
-        margin-left: 5px;
+        margin-left: 15px;
+    }
+
+    .techno p {
+        font-size: 0.8rem;
+    }
+
+    .techno-img img {
+        width: 8vw;
+    }
+
+    .show-website a span {
+        font-size: 0.6rem;
+        margin-right: 15px;
+    }
+
+}
+
+/*-------------------FORMAT BIG SCREEN-------------------*/
+@media screen and (min-width: 2000px) and (max-width: 3400px) {
+    .swiper-slide .content .caption {
+        padding-top: 50px;
+        font-size: 1.7rem;
     }
 }
 
+@media screen and (min-width: 3400px) {
+    .swiper-slide .content .caption {
+        font-size: 3rem;
+    }
+}
+
+/*-------------------FORMAT TABLETTE-------------------*/
 @media screen and (min-width: 768px) {
     .techno {
         margin-left: 20px;
+    }
+
+    .show-website {
+        text-align: center;
     }
 }
 
