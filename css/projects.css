@@ -208,11 +208,11 @@ hr {
 }
 
 .slide5 {
-    background-image: url("../image/one_page.jpg");
+    background-image: url("../image/marvel_quizz.jpg");
 }
 
 .slide6 {
-    background-image: url("../image/marvel_quizz.jpg");
+    background-image: url("../image/one_page.jpg");
 }
 
 .swiper-slide::after {
