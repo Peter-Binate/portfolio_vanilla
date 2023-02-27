@@ -23,16 +23,11 @@ html {
     font-family: 'Poppins', sans-serif;
     color: var(--font-text-color);
     --res: calc(0.01 * 10vmin);
-    scroll-behavior: smooth;
 }
 
 body {
-    max-width: 900%;
-    height: 100vh;
-}
-
-.wrapper {
-    overflow-x: hidden;
+    scroll-behavior: smooth;
+    height: 200vh;
 }
 
 section {
@@ -56,12 +51,4 @@ ul {
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
-}
-
-@media screen and (min-width: 2700px) and (max-width: 5000px) {
-
-    section {
-        width: 100%;
-        height: 100vh;
-    }
 }
