@@ -23,10 +23,10 @@ html {
     font-family: 'Poppins', sans-serif;
     color: var(--font-text-color);
     --res: calc(0.01 * 10vmin);
+    scroll-behavior: smooth;
 }
 
 body {
-    scroll-behavior: smooth;
     height: 200vh;
     overflow-x: hidden;
 }
