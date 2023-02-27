@@ -25,51 +25,39 @@ footer ul {
     text-align: center;
 }
 
-.footer .menu li {
+.footer .footer-navlist li {
     display: inline-block;
     margin: 0.7em;
     text-align: center;
 }
 
 .brand,
-.footer .menu a,
+.footer .footer-navlist a,
 .contact-infos-content li {
     font-weight: 500;
 }
 
+.contact-infos-container span {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid blue;*/
+}
+
+#enveloppe {
+    margin-right: 0.5em;
+    /*border: 1px solid red;*/
+}
+
 .footer .media-icons {
-    margin: 1em 0;
+    margin: 0.5em 0;
+    /*border: 1px solid rebeccapurple;*/
 }
 
 .media-icons li {
     display: inline-block;
     margin: 0.5em 0.5em 0.5em 0;
-}
-
-.contact-infos-container {
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-.contact-infos-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.contact-infos-content #mail {
-    padding-bottom: 10px;
-}
-
-.contact-infos-content span {
-    margin-bottom: 0.2em;
-}
-
-.contact-infos-content span i {
-    margin-right: 0.5em;
 }
 
 .media-icons a {
@@ -102,13 +90,13 @@ footer ul {
 }
 
 @media screen and (max-width: 540px) {
-    .footer .menu {
+    .footer .footer-navlist {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .footer .menu li {
+    .footer .footer-navlist li {
         margin-bottom: 0.2em;
     }
 
