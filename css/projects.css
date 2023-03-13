@@ -202,27 +202,27 @@ hr {
 }
 
 .slide1 {
-    background-image: url("../image/jitterclick.jpg");
-}
-
-.slide2 {
-    background-image: url("../image/tower-defense.jpg");
-}
-
-.slide3 {
-    background-image: url("../image/reine.jpg");
-}
-
-.slide4 {
-    background-image: url("../image/todo_list.jpg");
-}
-
-.slide5 {
     background-image: url("../image/one_page.jpg");
 }
 
-.slide6 {
+.slide2 {
     background-image: url("../image/marvel_quizz.jpg");
+}
+
+.slide3 {
+    background-image: url("../image/todo_list.jpg");
+}
+
+.slide4 {
+    background-image: url("../image/jitterclick.jpg");
+}
+
+.slide5 {
+    background-image: url("../image/tower-defense.jpg");
+}
+
+.slide6 {
+    background-image: url("../image/reine.jpg");
 }
 
 .swiper-slide::after {
