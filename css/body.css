@@ -28,12 +28,12 @@ html {
 
 body {
     height: 200vh;
-    overflow-x: hidden;
 }
 
 section {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
 }
 
 a {
